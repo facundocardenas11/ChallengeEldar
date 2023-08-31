@@ -5,11 +5,8 @@ Challenge para ELDAR
 Ejercicio 5:
 
 
-public class Main {
-    public static void main(String[] args) {
-        String[] myArray = {"FirstWord", "SecondWord", "THIRDWORD"};
-        String result = concatenateAndConvertToLowerCase(myArray);
-        System.out.println(result);
+
+    
     
     public static String concatenateAndConvertToLowerCase(String[] array) {
         StringBuilder sb = new StringBuilder();
@@ -24,3 +21,10 @@ public class Main {
         return sb.toString();
     }
 }
+
+posible main:
+
+public static void main(String[] args) {
+        String[] myArray = {"FirstWord", "SecondWord", "THIRDWORD"};
+        String result = concatenateAndConvertToLowerCase(myArray);
+        System.out.println(result);
